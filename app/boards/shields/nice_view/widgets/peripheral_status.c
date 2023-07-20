@@ -7,6 +7,10 @@
 #include <zephyr/kernel.h>
 #include <zephyr/bluetooth/services/bas.h>
 #include <zephyr/random/rand32.h>
+
+#include <zephyr/logging/log.h>
+LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
+
 #include <zmk/display.h>
 #include "peripheral_status.h"
 #include <zmk/events/usb_conn_state_changed.h>
