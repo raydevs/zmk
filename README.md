@@ -23,11 +23,11 @@ your `zmk-config/config` directory with the following contents:
 ```
 manifest:
   remotes:
-    - name: urob
-      url-base: https://github.com/urob
+    - name: raydevs
+      url-base: https://github.com/raydevs
   projects:
     - name: zmk
-      remote: urob
+      remote: raydevs
       revision: main
       import: app/west.yml
   self:
